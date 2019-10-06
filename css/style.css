@@ -1,0 +1,218 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inner{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header,.theme,.main__content,.footer.skill-figure,.sns-nav{
+  width: 100%;
+}
+
+body{
+  font-family: 'Lato','sans-serif';
+}
+
+h{
+  font-family: 'Raleway';
+}
+
+.theme-color{
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.b-color-gray{
+  background-color: #f2f2f2;
+}
+
+.btn-hover:hover{
+  transition: 0.3s;
+  color: #333;
+  cursor: pointer;
+}
+
+/* ------ header ----- */
+.header{
+  background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.header__icon{
+  float: left;
+  font-size: 38px;
+  color: #4e4e4e;
+}
+
+.header__btn{
+  float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+
+}
+/* ---------- main ---------- */
+/* ------ theme ----- */
+.theme{
+  padding: 250px 0;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.theme__title{
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.theme__text{
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+/* ----- details ----- */ /*　文字の縦の幅はどうなの？*/
+.details{
+  background-color: #74cfae;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.details__inner{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.details__title{
+  font-size:24px;
+}
+
+.details__text{
+  font-size: 20px;
+  margin-top: 35px;
+  line-height: 25px;
+}
+/* -----main__content----- */
+
+.main__content{
+  text-align: center;
+  padding: 60px 0 70px;
+}
+
+.main__content__title{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.main__content__box{
+  line-height: 0;
+  margin-bottom: 90px;
+}
+
+.main__content__img{
+  margin-right: 100px;
+  margin-bottom: 80px;
+  opacity: 0.7;
+}
+
+.main__content__img:hover{
+  transition: 0.3;
+  opacity: 1;
+}
+
+
+.main__content__box .main__content__img:nth-child(3n){
+  margin-right: 0;
+}
+
+.main__content__box .main__content__img:nth-child(n+4){
+  margin-bottom: 0;
+}
+
+.main__content__text{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.main__content__btn{
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  margin-left: 90px;
+  vertical-align: top;
+}
+
+
+/* ------ skill-figure ------*/
+.skill-figure{
+  padding:70px 0 100px;
+  text-align: center;
+  background-color: #4e4e4e;
+  color: #fff;
+}
+
+.skill-figure__title{
+  display: inline-block;
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+.skill-figure__img{
+  display: inline-block;
+  margin-right: 180px;
+}
+
+.skill-figure__box .skill-figure__img:last-child{
+  margin-right: 0;
+}
+
+.skill-figure__text{
+  padding-top: 12px;
+  font-size: 16px;
+}
+
+/* ----- sns-nav ----- */
+.sns-nav{
+  padding: 200px 0;
+  text-align: center;
+  color:  #74cfae;
+  font-size: 0;
+}
+
+.sns-nav__icon{
+  display: inline-block;
+  vertical-align: bottom;
+  width: 185px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 38px;
+}
+
+.sns-nav__icon:hover{
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* ---------- footer ---------- */
+.footer{
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.footer__text{
+  text-align: right;
+  font-size: 12px;
+}
+
