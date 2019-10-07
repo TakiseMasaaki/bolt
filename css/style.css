@@ -187,7 +187,6 @@ h{
 .sns-nav{
   padding: 200px 0;
   text-align: center;
-  color:  #74cfae;
   font-size: 0;
 }
 
@@ -198,6 +197,7 @@ h{
   height: 100px;
   line-height: 100px;
   font-size: 38px;
+  color:  #74cfae;
 }
 
 .sns-nav__icon:hover{
