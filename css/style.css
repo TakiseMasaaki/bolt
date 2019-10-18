@@ -287,6 +287,10 @@ body{
   margin-bottom: 0;
 }
 
+.sns-nav__icon{
+  width: 25%;
+}
+
 }
 /* --------------------------スマートフォン-------------------------------- */
 @media screen and (max-width:767px) {
